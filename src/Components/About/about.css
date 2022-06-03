@@ -1,0 +1,491 @@
+.aboutMe__section{
+    width: 100vw;
+    margin-top: 4rem;
+    height: 300vh;
+    margin-bottom: 12rem;
+}
+
+.about__container{
+    /* overflow-y: scroll; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    background-color: rgb(18, 2, 27);
+    height: 100%;
+    
+
+}
+
+
+
+.section__title{
+    color: orangered;
+}
+
+.about__parent{
+    background-color: rgb(18, 2, 27);
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.about__table__row{
+    display: flex;
+}
+
+.image__column{
+    width: 40%;
+    margin-right: 2rem;
+}
+
+.about__header h4{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    /* background-color: aqua; */
+}
+
+.about__header h1{
+    /* background-color: aliceblue; */
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+.about__header h4{
+    font-size: 25px;
+    padding: 3px 7px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.about__header h4{
+    color: silver;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal{
+    background-color: orangered;
+    height: 4px;
+    width: 100px;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+
+.about__picture{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.my__details{
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    /* gap: 5px; */
+}
+
+
+
+.about__role{
+    color: orangered;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.my__details > li::before{
+    content: ">";
+    color: orangered;
+    margin-right: 3px;
+    font-weight: 700;
+}
+
+.description__column{
+    padding: 3px 5px;
+    width: 50%;
+    font-size: 15px;
+    /* background-color: cadetblue; */
+}
+
+.section__title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.title__header__line{
+    background-color: orangered;
+    font-weight: 700;
+    width: 200px;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+/* Other About Info */
+
+.other__great__details{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: #333; */
+}
+
+.box{
+    background-color: #000;
+    text-align: center;
+    width: 23%;
+}
+
+.emoji{
+    background-color: #333;
+    font-size: 38px;
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+}
+
+.fa{
+    color: orangered !important;
+}
+
+.about__item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.total{
+    margin-top: 10px;
+}
+
+
+/* ============SKILLS============ */
+
+.skills__section{
+    margin-top: 4rem;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.skills__header{
+    width: 90%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+
+
+.parent__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 25px;
+    padding: 3px 7px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.header__title .horizontal{
+    margin-left: 1rem;
+}
+
+.skills__children{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    background-color: rgb(15, 4, 15);
+    padding: 5px;
+}
+
+.skills__child{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill__title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.percent__bar{
+    background-color: #333;
+    height: 22px;
+    width: 100%;
+}
+
+.html__skill__percent__level{
+    width: 90%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.css__skill__percent__level{
+    width: 94.5%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.javascript__skill__percent__level{
+    width: 76.99%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.python__skill__percent__level{
+    width: 90%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.django__skill__percent__level{
+    width: 85%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.drf__skill__percent__level{
+    width: 90%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.react__skill__percent__level{
+    width: 60%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.flutter__skill__percent__level{
+    width: 5%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.git__skill__percent__level{
+    width: 65%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+.dbms__skill__percent__level{
+    width: 75%;
+    background-color: rgb(172, 50, 6);
+    height: 100%;
+}
+
+
+
+
+
+/* =======================INTERESTS========= */
+
+
+
+/* ============TESTIMONIALS============= */
+.about__testimonials__section{
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    margin-top: 20rem;
+}
+
+.mySVG2{
+    color: #000;
+    font-size: 10px;
+    position: absolute;
+    /* top: 10px; */
+}
+
+.testimonial__item{
+    background-color: #333;
+    border-radius: 21px;
+    height: 17rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5rem;
+}
+
+.testimonial__item p{
+    margin-bottom: 3rem;
+    width: 90%;
+    margin: auto;
+    padding-top: 17px;
+    padding-bottom: 2rem;
+}
+
+.testimonial__item img{
+    object-fit: contain;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    left: 2rem;
+    top: 10px;
+    border: 5px solid rgb(167, 166, 166);
+}
+
+.testimonial__detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 3px;
+    margin-top: 1rem;
+    /* background-color: aquamarine; */
+}
+
+.testimonial__detail h2{
+    margin-left: 2.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.testimonial__detail p{
+    margin-left: 2.5rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 90%;
+    /* margin-top: 10rem; */
+  }
+  
+  .swiper-slide {
+    background-color: #000;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+
+
+@media screen and (max-width:900px) {
+    
+    .about__table__row{
+        flex-direction: column;
+    }
+
+    .aboutMe__section{
+        height: 700vh;
+        margin-bottom: 1rem;
+    }
+
+    .about__container{
+        height: 97.2%;
+
+    }
+
+    .image__column{
+        width: 100%;
+        height: 130vh;
+    }
+
+    .about__picture{
+        width: 100%;
+        height: 100%;
+    }
+
+    .description__column{
+        width: 100%;
+    }
+
+    .description__column p:last-child{
+        margin-bottom: 10px;
+    }
+
+    .my__details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other__great__details{
+        flex-direction: column;
+        width: 100%;
+        gap: 4rem;
+    }
+
+    .box{
+        width: 90%;
+        margin: auto;
+        padding: 10px 0;
+    }
+
+    .emoji{
+        padding: 18px;
+        color: orangered;
+    }
+
+    /* SKills  */
+
+    .skills__section{
+        height: 160vh;
+    }
+    .skills__children{
+        width: 90%;
+        height: 90%;
+        /* background-color: aqua; */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills__header{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .testimonial__item img{
+        position: relative;
+        top: -.9rem;
+        right: -2rem;
+    }
+
+    
+}
+
+@media screen  and (min-width:901px) {
+    .about__table__row{
+        /* border: 7px solid green; */
+        height: fit-content;
+        margin-bottom: 1rem;
+    }
+
+    .image__column{
+        width: 50%;
+        /* border: 7px solid rgb(238, 240, 238); */
+    }
+
+    .image__column img{
+        height: 100%;
+    }
+    .aboutMe__section{
+        /* border: 10px solid green; */
+        height: 450vh;
+        margin-bottom: 1rem;
+    }
+
+    .about__container{
+        /* border: 10px solid green; */
+        height: 97.1%;
+
+    }
+
+    .testimonial__item img{
+        top: -.7rem;
+    }
+}
