@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./header.css";
 import Typical from "react-typical";
 import { FaHamburger, FaBars } from "react-icons/fa";
@@ -8,28 +7,30 @@ import {
   BsGithub,
   BsLinkedin,
 } from "react-icons/bs";
+import { useState } from "react";
 
 function Header() {
+    // const [showMenu, setShowMenu] = useState[false]
   return (
-    <div className="header">
+    <div className="header" id="home">
       <nav>
         <div className="container nav__container">
           <h2 className="nav__logo">William<span className="brand__name">Dreams</span></h2>
           <ul className="nav__list">
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="/resume">Resume</a>
+              <a href="#resume">Resume</a>
             </li>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="/contact">ContactMe</a>
+              <a href="#contact">ContactMe</a>
             </li>
           </ul>
           <a href="#" className="nav__toggler">

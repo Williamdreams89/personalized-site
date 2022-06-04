@@ -17,7 +17,7 @@ import { Autoplay, Pagination } from "swiper";
 
 function AboutMe() {
   return (
-    <div className="aboutMe__section">
+    <div className="aboutMe__section" id="about">
       <div className="title__section">
         <h2 className="section__title">About Me</h2>
         <hr className="title__header__line" />

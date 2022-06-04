@@ -197,62 +197,6 @@ nav{
 }
 
 
-
-@media screen and (max-width:800px){
-
-    .nav__logo{
-        font-size: 35px;
-    }
-
-    .nav__list{
-        position: absolute;
-        flex-direction: column;
-        gap: 4rem;
-        top: 3rem;
-        background-color: #333;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-        width: 98vw;
-        display: none;
-    }
-
-    .nav__toggler{
-        display: block;
-    }
-
-    .profile__container{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-
-    .profile__picture img{
-        object-fit: cover;
-        width: 350px;
-        height: 350px;
-        border-radius: 50%;
-    }
-
-    .social__icons{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: -28rem;
-        left: -30vw;
-    }
-    .profile__description{
-        width: 100%;
-        font-size: 20px;
-        margin-top: 1rem;
-        font-weight: 500;
-    }
-
-    .profile__btns{
-        max-width: 400px;
-    }
-}
-
 @media screen and (max-width:1173px){
 
     .nav__logo{
@@ -293,14 +237,17 @@ nav{
         display: flex;
         flex-direction: column;
         position: relative;
-        top: -28rem;
-        left: -30vw;
+        top: -74.7vh;
+        left: -35vw;
+        gap: 2rem;
     }
     .profile__description{
         width: 100%;
         font-size: 20px;
         margin-top: 1rem;
         font-weight: 500;
+        position: relative;
+        top: -1.6rem;
     }
 
     .profile__btns{

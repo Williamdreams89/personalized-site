@@ -1,0 +1,27 @@
+.floating__nav{
+    width: 30vw;
+    background-color: rgba(0, 0, 0, .7);
+    backdrop-filter: blur(15px);
+    position: fixed;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: fit-content;
+    z-index: 100;
+    border-radius: 3rem;
+    padding: 15px;
+    display: flex;
+    /* gap: 15px; */
+    justify-content: space-around;
+}
+
+.floating__nav a{
+    background: transparent;
+    padding: .4rem;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.floating__nav a:hover{
+    background: rgba(248, 78, 16, .2);
+}

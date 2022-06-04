@@ -15,6 +15,23 @@
     font-size: 35px;
 }
 
+.horizontal__line{
+    background-color: orangered;
+    height: 10px;
+    width: 190px;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.portfolio__header{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+}
+
 .portfolio__parent__container{
     background-color: rgb(20, 12, 27);
     height: 100%;
@@ -147,6 +164,11 @@
   .portfolio__info h4, .portfolio__info p{
       font-size: 25;
       color: silver;
+  }
+
+  .portfolio__space{
+      margin-top: 1rem;
+      height: 2rem;
   }
 
 

@@ -16,7 +16,7 @@ import SendIcon from '@material-ui/icons/Send';
 
 function ContactMe() {
   return (
-    <div className="contactme__main__section">
+    <div className="contactme__main__section" id="contact">
       <div className="section__header">
         <h2 className="section__title">Contact Me</h2>
         <hr className="title__header__line" />

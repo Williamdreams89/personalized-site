@@ -59,11 +59,11 @@ function Portfolio() {
   }, [tag]);
 
   return (
-    <div className="portfolio__section">
+    <div className="portfolio__section" id="portfolio">
       <div className="portfolio__header">
         <h1>
           Portfolio
-          <hr className="horizontal" />
+          <hr className="horizontal__line" />
         </h1>
       </div>
       <div className="portfolio__parent__container">
@@ -138,6 +138,7 @@ function Portfolio() {
             </SimpleReactLightbox>
           </div>
         </div>
+      <div className="portfolio__space"></div>
       </div>
     </div>
   );
