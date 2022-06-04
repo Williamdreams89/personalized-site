@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./navigationer.css";
 import {AiOutlineHome} from "react-icons/ai";
 import {AiOutlineUser} from "react-icons/ai";
@@ -8,9 +8,11 @@ import {BiMessageSquareDetail} from "react-icons/bi";
 
 
 function Navigation() {
+
+  const [activeNavMenu, setActiveNavMenu] = useState("#home")
   return (
     <nav className='floating__nav'>
-        <a href='#home'><AiOutlineHome /></a>
+        <a href='#home' className="active"><AiOutlineHome /></a>
         <a href='#about'><AiOutlineUser /></a>
         <a href='#resume'><BiBook /></a>
         <a href='#portfolio'><RiServerLine /></a>

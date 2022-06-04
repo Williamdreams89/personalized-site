@@ -482,7 +482,13 @@
 @media screen  and (min-width:901px) {
 
     .description__column p, .description__column ul{
-        font-size: 21px;   
+        font-size: 19px;   
+    }
+
+    .description__column ul{
+        display: grid;
+        grid-template-columns: 40%, 60%;
+        row-gap: 2rem;
     }
 
     .about__table__row{

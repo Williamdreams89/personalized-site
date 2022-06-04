@@ -22,6 +22,15 @@
     border-radius: 50%;
 }
 
-.floating__nav a:hover{
+.floating__nav a:hover, .active{
     background: rgba(248, 78, 16, .2);
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .floating__nav{
+        width: 80%;
+    }
 }
